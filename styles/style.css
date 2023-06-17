@@ -8,9 +8,12 @@
 }
 
 body {
-    background: #301934;
+    background-color: #301934;
     color: #ededed;
+    
 }
+
+
 
 .header {
     position: fixed;
@@ -37,6 +40,10 @@ body {
     margin: -13px -5px 0;
 }
 
+.navbar{
+    margin-left: auto;
+}
+
 .navbar a{
     font-size: 18px;
     color:#ededed;
@@ -56,6 +63,14 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
+}
+
+.home img {
+    max-width: 100%;
+    height: 250px;
+    height: 300px;
+    display: flex;
+    
 }
 
 .home-content {
